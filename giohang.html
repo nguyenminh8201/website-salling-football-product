@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Giỏ hàng</title>
+    <link rel="stylesheet" href="giohang.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+    <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+    <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+
+</head>
+<body>
+<div class="mainBody">
+    <!--Header-->
+    <div class="header">
+        <header class="header-container">
+            <!--Header top-->
+            <div class="wrap-header__top">
+                <div class="header__top">
+
+                    <!--Logo-->
+                    <div class="wrap-logo">
+                        <a href="">
+                            <img
+                                    src="https://www.nicepng.com/png/full/305-3054517_electronic-data-interchange-for-big-rock-sports-big.png?fbclid=IwAR2-bENpJddsi0za2mz4gyx8xT6q1uGRB8Sp-2NybYhInwXmGUXIZ8_Mc28"
+                                    alt="">
+                        </a>
+                    </div>
+
+                    <!--Tim kiem-->
+                    <div class="wrap-search">
+                        <div class="wrap-search__input">
+                            <input type="text" placeholder="Tìm kiếm sản phẩm...">
+                        </div>
+                        <button class="wrap-search__btn" type="submit">
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </div>
+
+                    <!--Đăng nhập/đăng kí/giỏ hàng-->
+
+                    <div class="wrap-action">
+                        <div class="wrap-action__account acount">
+                            <a href="dangnhap.html" style="text-decoration: none">
+                                <i class="fas fa-user-circle"></i>
+                                <span>Tài khoản</span>
+                            </a>
+                        </div>
+
+                        <div class="wrap-action__cart">
+                            <a href="giohang.html" style="text-decoration: none">
+                                <i class="fas fa-shopping-cart"></i>
+                                <span class="cart-title">Giỏ hàng</span>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--Header bottom-->
+            <div class="wrap-header__bottom">
+                <div class="header-nav">
+                    <nav class="nav-menu">
+                        <ul id="menuList-primary" class="menuList-primary">
+                            <li class="home">
+                                <a href="HomePage.html" style="text-decoration: white">Trang chủ</a>
+                            </li>
+                            <li class="subMenu ">
+                                <a href="" style="text-decoration: white">Giày bóng đá <i class="fas fa-angle-down"></i></a>
+                                <ul class="menuList-sub animate__animated animate__fadeInUp">
+                                    <li>
+                                        <a href="">Giày bóng đá Nike </a>
+                                    </li>
+                                    <li>
+                                        <a href=""> Giày bóng đá Adidas</a>
+                                    </li>
+                                    <li>
+                                        <a href=""> Giày bóng đá Mizuno</a>
+                                    </li>
+                                    <li>
+                                        <a href=""> Giày bóng đá Kamito</a>
+                                    </li>
+                                    <li>
+                                        <a href=""> Giày bóng đá Pan</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="subMenu">
+                                <a href="" style="text-decoration: white">Quần áo bóng đá <i class="fas fa-angle-down"></i></a>
+                                <ul class="menuList-sub animate__animated animate__fadeInUp">
+                                    <li>
+                                        <a href="">Quần áo bóng đá BULBAL</a>
+                                    </li>
+                                    <li>
+                                        <a href="">Quần áo bóng đá CLB</a>
+                                    </li>
+                                </ul>
+                            </li>
+                            <li class="">
+                                <a href="PhuKien.html" style="text-decoration: white">Phụ kiện</a>
+                            </li>
+                            <li>
+                                <a href="" style="text-decoration: white">HOT SALE</a>
+                            </li>
+                            <li class="">
+                                <a href="lienhe1.html" style="text-decoration: white">Liên hệ</a>
+                            </li>
+                            <li class="">
+                                <a href="khachhang.html" style="text-decoration: white">Khách hàng</a>
+                            </li>
+                            <li class="">
+                                <a href="gioithieu.html" style="text-decoration: white">Giới thiệu</a>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
+</div>
+<div id="cart">
+    <ul style="margin-top: 0px">
+        <li><a href="HomePage.html" style="text-decoration: none">Trang chủ</a></li>
+        <li class="space">/</li>
+        <li class="lh">Giỏ hàng</li>
+    </ul>
+    <div class="container">
+        <table class="cart">
+            <thead>
+            <tr>
+                <th style="width:50%">Tên sản phẩm</th>
+                <th style="width:10%">Giá</th>
+                <th style="width:8%">Số lượng</th>
+                <th style="width:22%" class="text-center">Thành tiền</th>
+                <th style="width: 5%; margin-right: 0px"> </th>
+            </tr>
+            </thead>
+            <tbody><tr>
+                <td data-th="Product">
+                    <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="https://product.hstatic.net/200000343509/product/07b3166931c8413d992a009a685047f7_5f081e1aa6a7444b8e0f668f0d09cb5f_large.jpg" alt="Sản phẩm 1" class="img-responsive"  style="width: 100px; height: 70px">
+                        </div>
+                        <div class="col-sm-10">
+                            <h4 class="nomargin">Giày Bóng Đá Cỏ Nhân Tạo Mercurial Vapor 13 bo thun Xanh Da TF</h4>
+                            <p>41</p>
+                        </div>
+                    </div>
+                </td>
+                <td data-th="Price">200.000 đ</td>
+                <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+                </td>
+                <td data-th="Subtotal" class="text-center">200.000 đ</td>
+                <td class="actions">
+                    <button><img src="https://theme.hstatic.net/200000343509/1000786067/14/delete-cart.png?v=183" style="width: 10px; height: 10px"></button>
+                </td>
+            </tr>
+            <tr>
+                <td data-th="Product">
+                    <div class="row">
+                        <div class="col-sm-2 hidden-xs"><img src="https://product.hstatic.net/200000343509/product/-bulbal-6city-da-nang-backside_453c3a78489c4779a4099cc6c13a06dc_master_d7b35f243e76437a9ff76e74f0f22d9d_large.jpg" alt="Sản phẩm 1" class="img-responsive" style="width: 100px; height: 70px">
+                        </div>
+                        <div class="col-sm-10">
+                            <h4 class="nomargin">Quần Áo Bóng Đá Bulbal 6 City ĐN Bích</h4>
+                            <p>L</p>
+                        </div>
+                    </div>
+                </td>
+                <td data-th="Price">120.000 đ</td>
+                <td data-th="Quantity"><input class="form-control text-center" value="1" type="number">
+                </td>
+                <td data-th="Subtotal" class="text-center">120.000 đ</td>
+                <td class="actions">
+                    <button><img src="https://theme.hstatic.net/200000343509/1000786067/14/delete-cart.png?v=183" style="width: 10px; height: 10px"></button>
+                </td>
+            </tr>
+            </tbody>
+            <tfoot>
+            <tr style="height: 50px; line-height: 50px">
+                <td><a href="" class="btn btn-warning"><i class="fa fa-angle-left"></i> Tiếp tục mua hàng</a>
+                </td>
+                <td colspan="2" class="hidden-xs"> </td>
+                <td class="hidden-xs text-center"><strong>Tổng tiền 320.000 đ</strong>
+                <td>
+                <a href="thanhtoan.html" class="btn btn-success btn-block">Thanh toán<i class="fa fa-angle-right"></i></a>
+            </td>
+            </tr>
+            </tfoot>
+        </table>
+    </div>
+</div>
+<!--Footer-->
+<footer class="footer" style="padding-top: 150px">
+    <div class="footer-container">
+        <div class="footer-column col-left">
+            <h2>Về cửa hàng</h2>
+            <p>Được thành lập vào năm 2020. Mang sứ mệnh
+                đem lại những sản phẩm có chất lượng tốt nhất cho khách hàng.</p>
+        </div>
+        <div class="footer-column col-center">
+            <h2>Liên hệ</h2>
+            <ul>
+                <li><span><i class="fas fa-phone"></i> Số điện thoại:</span> 012345678</li>
+                <li><span><i class="fas fa-map-marker-alt"></i> Địa chỉ:</span> Khu phố 6, p.Linh Trung, Tp Thủ Đức</li>
+                <li><a href=""><span><i class="fab fa-facebook-f"></i> Fanpage:</span> facebook.com</a></li>
+            </ul>
+        </div>
+        <div class="footer-column col-right">
+            <h2>Hỗ trợ khách hàng</h2>
+            <ul>
+                <li><a href="">Chăm sóc khách hàng</a></li>
+                <li><a href="">Giới thiệu</a></li>
+                <li><a href="">Chính sách&điều khoản</a></li>
+            </ul>
+        </div>
+    </div>
+    <div class="text-center">
+        © 2020 Copyright: <a href=""> BigrockSport</a>
+    </div>
+</footer>
+<script>
+    window.onscroll = function () {
+        myFunction()
+    };
+    var navbar = document.getElementById("menuList-primary");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+        if (window.pageYOffset >= sticky) {
+            navbar.classList.add("sticky");
+        } else {
+            navbar.classList.remove("sticky");
+        }
+    }
+</script>
+
+</body>
+</html>

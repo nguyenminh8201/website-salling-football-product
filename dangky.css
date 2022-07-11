@@ -1,0 +1,197 @@
+body{
+    margin: 0;
+    font-family: 'Quicksand',sans-serif;
+    padding: 0;
+}
+li{
+    list-style-type: none;
+}
+a{
+    text-decoration: none;
+}
+.mainBody{
+    position: relative;
+}
+.header{
+    width: 100%;
+    min-height: 100px;
+}
+.header__top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: #f9f9f9;
+    width: 100%;
+    height: 100px;
+}
+#account {
+    height: 100%;
+}
+#account ul {
+    height: 40px;
+    list-style-type: none ;
+    background: #f9f9f9;
+    text-align: left;
+    padding-left: 50px;
+    margin-top: 0px;
+}
+#account ul li {
+    color: black;
+    display: inline-table;
+    text-align: center;
+    width: 100px;
+    height: 40px;
+    line-height: 40px;
+}
+#account ul .space {
+    width: 5px;
+}
+.form {
+    margin: auto;
+    width: 500px;
+    height: auto;
+    border: 0.5px solid grey;
+}
+.form_container {
+    padding: 32px;
+}
+.form_header {
+    margin-top: -5px;
+    display: flex;
+    align-items: center;
+    justify-content:  space-between;
+}
+.form_heading {
+
+    font-weight: bold;
+    font-size: 25px;
+    width: 40%;
+    text-align: center;
+    float: right;
+    text-decoration: grey;
+}
+.form_heading_signin {
+    color: red;
+    cursor: pointer;
+    text-align: center;
+    float: left;
+    margin-right: 50px;
+}
+input {
+    width: 418px;
+    height: 40px;
+    margin-top: 16px;
+    font-size: 15px;
+    border: 1px solid gainsboro;
+    padding-left: 12px;
+    border-radius: 2px;
+}
+.form-aside {
+    margin-top: 18px;
+}
+.policy-text {
+    font-size: 12px;
+}
+.text-link {
+    text-decoration: none;
+    color: red;
+}
+.form-controls {
+    margin-top: 80px;
+    display: flex;
+    justify-content: flex-end;
+}
+button {
+    min-width: 142px;
+    height: 36px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+}
+.btn-signin {
+    background-color: red;
+    color: white;
+    margin-left: 8px;
+}
+.socials {
+    margin-top: 22px;
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 16px 36px;
+    line-height: 30px;
+}
+.socials-icon {
+    font-size: 18px;
+    color: white;
+}
+.btn-with-facebook {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    color: white;
+    background-color: #3A5A98;
+}
+.btn-with-google {
+    cursor: pointer;
+    padding-left: 15px;
+    padding-right: 15px;
+    color: white;
+    background-color: grey;
+}
+.footer{
+    display: flex;
+    flex-direction: column;
+}
+.footer-container{
+    background-color: #262626;
+}
+.footer-column{
+    float: left;
+    clear: right;
+    margin-left: 84px;
+    width: 26%;
+    font-size: 14px;
+    font-weight: 500;
+    color: #a5a5a5;
+}
+.footer-column h2{
+    color: #f1f1f1;
+}
+.col-center ul{
+    padding: 0;
+}
+.col-center ul li{
+    padding-bottom: 10px;
+    color: #a5a5a5;
+}
+.col-center ul li a{
+    color: #a5a5a5;
+}
+.col-center ul li span{
+    color: #d3d3d3;
+    font-weight: 650;
+}
+.col-right ul{
+    padding: 0;
+}
+.col-right ul li{
+    padding-bottom: 5px;
+}
+.col-right ul li a{
+    color: #a5a5a5;
+}
+.text-center{
+    display: flex;
+    justify-content: center;
+    background-color: #333333;
+    height: 30px;
+    color: #f1f1f1;
+    align-items: center;
+    font-size: 12px;
+}
+.text-center a{
+    color: #f1f1f1;
+}

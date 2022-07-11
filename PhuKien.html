@@ -1,0 +1,630 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Phụ kiện</title>
+  <link rel="stylesheet" href="GiayMizuno.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" />
+  <link rel="stylesheet" href="fontawesome-free-5.15.4-web/css/all.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+  <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+</head>
+<body>
+<div class="mainBody">
+  <!--Header-->
+  <div class="header">
+    <header class="header-container">
+      <!--Header top-->
+      <div class="wrap-header__top">
+        <div class="header__top">
+
+          <!--Logo-->
+          <div class="wrap-logo">
+            <a href="">
+              <img
+                src="https://www.nicepng.com/png/full/305-3054517_electronic-data-interchange-for-big-rock-sports-big.png?fbclid=IwAR2-bENpJddsi0za2mz4gyx8xT6q1uGRB8Sp-2NybYhInwXmGUXIZ8_Mc28"
+                alt="">
+            </a>
+          </div>
+
+          <!--Tim kiem-->
+          <div class="wrap-search">
+            <div class="wrap-search__input">
+              <input type="text" placeholder="Tìm kiếm sản phẩm...">
+            </div>
+            <button class="wrap-search__btn" type="submit">
+              <i class="fas fa-search"></i>
+            </button>
+          </div>
+
+          <!--Đăng nhập/đăng kí/giỏ hàng-->
+
+          <div class="wrap-action">
+            <div class="wrap-action__account acount">
+              <a href="dangnhap.html">
+                <i class="fas fa-user-circle"></i>
+                <span>Tài khoản</span>
+              </a>
+            </div>
+
+            <div class="wrap-action__cart">
+              <a href="giohang.html">
+                <i class="fas fa-shopping-cart"></i>
+                <span class="cart-title">Giỏ hàng</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--Header bottom-->
+      <div class="wrap-header__bottom">
+        <div class="header-nav">
+          <nav class="nav-menu">
+            <ul id="menuList-primary" class="menuList-primary">
+              <li class="home">
+                <a href="HomePage.html">Trang chủ</a>
+              </li>
+              <li class="subMenu ">
+                <a href="">Giày bóng đá <i class="fas fa-angle-down"></i></a>
+                <ul class="menuList-sub animate__animated animate__fadeInUp">
+                  <li>
+                    <a href="">Giày bóng đá Nike </a>
+                  </li>
+                  <li>
+                    <a href=""> Giày bóng đá Adidas</a>
+                  </li>
+                  <li>
+                    <a href="GiayMizuno.html"> Giày bóng đá Mizuno</a>
+                  </li>
+                  <li>
+                    <a href=""> Giày bóng đá Kamito</a>
+                  </li>
+                  <li>
+                    <a href=""> Giày bóng đá Pan</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="subMenu">
+                <a href="">Quần áo bóng đá <i class="fas fa-angle-down"></i></a>
+                <ul class="menuList-sub animate__animated animate__fadeInUp">
+                  <li>
+                    <a href="">Quần áo bóng đá BULBAL</a>
+                  </li>
+                  <li>
+                    <a href="">Quần áo bóng đá CLB</a>
+                  </li>
+                </ul>
+              </li>
+              <li class="">
+                <a href="PhuKien.html">Phụ kiện</a>
+              </li>
+              <li>
+                <a href="">HOT SALE</a>
+              </li>
+              <li class="">
+                <a href="lienhe1.html">Liên hệ</a>
+              </li>
+              <li class="">
+                <a href="khachhang.html">Khách hàng</a>
+              </li>
+              <li class="">
+                <a href="gioithieu.html">Giới thiệu</a>
+              </li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </header>
+  </div>
+  <div id="account">
+    <ul style="width:auto">
+      <li><a href="HomePage.html" style="text-decoration: none">Trang chủ</a></li>
+      <li class="space">/</li>
+      <li class="lh" style="width: 150px">Phụ kiện</li>
+    </ul>
+  </div>
+  <div class="banner">
+    <img src="image/phukien.jpg" alt="">
+  </div>
+
+  <div class="sectionCollection">
+    <div class="sectionCollection__container">
+      <h2>Phụ kiện </h2>
+      <div class="filterProduct">
+        <div class="wrap-filterProduct">
+          <p class="titleFilter">
+            <i class="fas fa-filter"></i>
+            <span>Bộ lọc</span>
+          </p>
+          <div class="filter-group__col">
+            <ul class="col-contents">
+              <li>
+                <div class="filter-title">
+                  <span>Lọc giá</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <ul class="filter-contents animate__animated animate__fadeInUp">
+                  <li>
+                    <input type="checkbox" id="p1">
+                    <label for="p1">Dưới 200,000</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="p2">
+                    <label for="p2">Từ 200,000-500,000</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="p3">
+                    <label for="p3">Trên 500,000</label>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="filter-title">
+                  <span>Size</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <ul class="filter-contents animate__animated animate__fadeInUp">
+                  <li>
+                    <input type="checkbox" id="s1">
+                    <label for="s1">38</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="s2">
+                    <label for="s2">39</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="s3">
+                    <label for="s3">40</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="s4">
+                    <label for="s4">41</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="s5">
+                    <label for="s5">42</label>
+                  </li>
+                </ul>
+              </li>
+              <li>
+                <div class="filter-title">
+                  <span>Màu sắc</span>
+                  <span><i class="fas fa-angle-down"></i></span>
+                </div>
+                <ul class="filter-contents animate__animated animate__fadeInUp">
+                  <li>
+                    <input type="checkbox" id="c1">
+                    <label for="c1">Xanh dương</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="c2">
+                    <label for="c2">Đỏ</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="c3">
+                    <label for="c3">Vàng</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="c4">
+                    <label for="c4">Trắng</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="c5">
+                    <label for="c5">Đen</label>
+                  </li>
+                  <li>
+                    <input type="checkbox" id="c6">
+                    <label for="c6">Xanh lá</label>
+                  </li>
+                </ul>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="wrap-listProducts">
+        <div class="listProducts">
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/banggoi1.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Băng gối 4 chiều Iwin pro</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 60,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/banggoi2.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Băng gối Aolikes - AL7718 Đen viền Đỏ</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 65,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/banggoi3.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Băng gối Aolikes - AL7718 Đen</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 65,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/banggoi4.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Băng gối Aolikes - AL7718 Đen</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 65,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/opchan.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Rờ te iWin Keepa Trắng</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 45,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/opchan2.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Rờ te iWin Keepa Đen</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 45,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/opchan3.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Rờ te iWin Keepa Cam</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 45,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/opchan4.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Rờ te iWin Keepa Vàng</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 45,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/gangtay.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Găng Tay Thủ Môn Adidas Predator Cam - Đen</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 550,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/gangtay2.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Găng tay thủ môn PRIMARY PROTEK FLAT Đen Cam Xanh</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 590,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/gangtay3.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Găng tay thủ môn H3 Thái ROBO 21 - Trắng</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 690,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-inner">
+              <div class="product-img">
+                <a href=""><img src="image/phukien/gangtay4.jpg" alt=""></a>
+              </div>
+              <div class="product-detail">
+                <h3>
+                  <a href="">Găng tay thủ môn H3 Thái ROBO 21 Đỏ</a>
+                </h3>
+                <p class="product-price">
+                  <span>Giá: 690,000</span>
+                </p>
+                <div class="product-review">
+                  <div class="product-review-star">
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                    <i class="far fa-star"></i>
+                  </div>
+                  <p>(0 đánh giá)</p>
+                </div>
+                <p class="product-size">
+                  <span>Còn size:</span>
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="wrap-pageBtn">
+    <div class="pageBtn">
+      <span>1</span>
+      <span>2</span>
+      <span>3</span>
+      <span>4</span>
+      <span>&#8594;</span>
+    </div>
+  </div>
+  <!--Footer-->
+  <footer class="footer">
+    <div class="footer-container">
+      <div class="footer-column col-left">
+        <h2>Về cửa hàng</h2>
+        <p>Được thành lập vào năm 2020. Mang sứ mệnh
+          đem lại những sản phẩm có chất lượng tốt nhất cho khách hàng.</p>
+      </div>
+      <div class="footer-column col-center">
+        <h2>Liên hệ</h2>
+        <ul>
+          <li><span><i class="fas fa-phone"></i> Số điện thoại:</span> 012345678</li>
+          <li><span><i class="fas fa-map-marker-alt"></i> Địa chỉ:</span> Khu phố 6, p.Linh Trung, Tp Thủ Đức</li>
+          <li><a href=""><span><i class="fab fa-facebook-f"></i> Fanpage:</span> facebook.com</a></li>
+        </ul>
+      </div>
+      <div class="footer-column col-right">
+        <h2>Hỗ trợ khách hàng</h2>
+        <ul>
+          <li><a href="">Chăm sóc khách hàng</a></li>
+          <li><a href="">Giới thiệu</a></li>
+          <li><a href="">Chính sách&điều khoản</a></li>
+        </ul>
+      </div>
+    </div>
+    <div class="text-center">
+      © 2020 Copyright: <a href=""> BigrockSport</a>
+    </div>
+  </footer>
+
+  <script>
+    window.onscroll = function () {
+      myFunction()
+    };
+    var navbar = document.getElementById("menuList-primary");
+    var sticky = navbar.offsetTop;
+
+    function myFunction() {
+      if (window.pageYOffset >= sticky) {
+        navbar.classList.add("sticky");
+      } else {
+        navbar.classList.remove("sticky");
+      }
+    }
+  </script>
+</div>
+</body>
+</html>
